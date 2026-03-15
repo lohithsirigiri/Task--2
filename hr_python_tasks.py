@@ -1,8 +1,3 @@
-
-# Human Resource Assignment - Python Tasks (1–40)
-
-# ---------------- Bitwise Operator Tasks (1–8) ----------------
-
 # 1
 a = 10
 b = 6
@@ -40,9 +35,6 @@ a = int(input("Enter first number for XOR: "))
 b = int(input("Enter second number for XOR: "))
 print("8:", a ^ b)
 
-
-# ---------------- String Tasks (9–14) ----------------
-
 # 9
 s = "hi"
 print("9:", s * 4)
@@ -70,9 +62,6 @@ print("13:", name * 5)
 s1 = input("Enter first string: ")
 s2 = input("Enter second string: ")
 print("14:", s1 + s2)
-
-
-# ---------------- Input & Type Casting Tasks (15–20) ----------------
 
 # 15
 name = input("Enter name: ")
@@ -103,9 +92,6 @@ print("20 Before casting:", type(num))
 num = int(num)
 print("20 After casting:", type(num))
 
-
-# ---------------- Unit Digit Tasks (21–25) ----------------
-
 # 21
 num = input("Enter number: ")
 print("21: Last digit =", num[-1])
@@ -125,9 +111,6 @@ print("24:", (num // 10) % 10)
 # 25
 num = int(input("Enter 5 digit number: "))
 print("25:", num % 10)
-
-
-# ---------------- If Statement Tasks (26–30) ----------------
 
 # 26
 if 10 >= 5:
@@ -152,9 +135,6 @@ if num > 100:
 num = int(input("Enter number: "))
 if num >= 0:
     print("30: Non-negative number")
-
-
-# ---------------- If-Else Tasks (31–34) ----------------
 
 # 31
 num = int(input("Enter number: "))
@@ -183,9 +163,6 @@ if num > 10:
     print("34: Greater than 10")
 else:
     print("34: Not greater than 10")
-
-
-# ---------------- Nested If Tasks (35–37) ----------------
 
 # 35
 age = int(input("Enter age: "))
@@ -230,9 +207,6 @@ if age >= 16:
         print("37: Rejected")
 else:
     print("37: Rejected")
-
-
-# ---------------- Match Statement Tasks (38–40) ----------------
 
 # 38
 day = int(input("Enter number (1-7): "))
